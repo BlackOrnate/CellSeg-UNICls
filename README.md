@@ -107,7 +107,7 @@ The dataset used in this project was curated from the **NYBB brain slide collect
 <div align="center">
 
 | Item                      | Description                        |
-| ------------------------- | ---------------------------------- |
+| :-------------------------: | :----------------------------------: |
 | Source                    | NYBB brain slide collection        |
 | Disease groups            | AD-only, AD+LBD, non-AD            |
 | Number of subjects        | 6                                  |
@@ -125,7 +125,7 @@ The dataset used in this project was curated from the **NYBB brain slide collect
 <div align="center"> 
 
 | Label            | Description                                              | Used for Classification? |
-| ---------------- | -------------------------------------------------------- | ------------------------ |
+| :----------------: | :--------------------------------------------------------: | :------------------------: |
 | Neuron           | Major neuronal cell body class                           | Yes                      |
 | Oligo            | Oligodendrocyte-like cells                               | Yes                      |
 | Blood vessel     | Blood vessel regions or vascular structures              | Yes                      |
