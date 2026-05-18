@@ -1,0 +1,25 @@
+# UNI2 embedding-based classification configuration
+crop_root: outputs/crops
+embedding_root: outputs/embeddings/uni2
+checkpoint_dir: outputs/checkpoints/classification
+result_dir: outputs/predictions/classification
+
+# Data settings
+crop_size: 64
+resize_to: 224
+batch_size: 32
+num_workers: 2
+
+# Label settings
+# The original project used integer type IDs. If your labels are 1-based, keep label_offset=1.
+# If your labels are already 0-based, set label_offset=0.
+num_classes: 7
+ignore_label: -1
+label_offset: 1
+
+# Training settings
+epochs: 100
+learning_rate: 1.0e-3
+weight_decay: 0.0
+seed: 42
+encoder_name: uni2-h

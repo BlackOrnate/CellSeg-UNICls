@@ -1,0 +1,10 @@
+[project]
+name = "cellseg-unicls"
+version = "0.1.0"
+description = "Decoupled cell segmentation and UNI2 embedding-based classification for brain histopathology."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Hongrui Zhu"}]
+
+[tool.setuptools]
+packages = ["src"]

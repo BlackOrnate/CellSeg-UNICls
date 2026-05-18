@@ -1,0 +1,18 @@
+# Cellpose-SAM segmentation configuration
+model_name: cellseg_unicls_cellpose_sam
+train_dir: data/processed/train
+test_dir: data/processed/test
+checkpoint_dir: outputs/checkpoints/segmentation
+prediction_dir: outputs/predictions/instances
+figure_dir: outputs/figures
+
+# Training settings used in the thesis experiments
+use_gpu: true
+gpu_id: 0
+epochs: 100
+batch_size: 4
+learning_rate: 1.0e-5
+weight_decay: 0.1
+
+# Input settings
+channels: [0, 0]

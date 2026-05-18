@@ -1,0 +1,15 @@
+torch
+torchvision
+numpy
+pandas
+scipy
+scikit-image
+scikit-learn
+opencv-python
+matplotlib
+tqdm
+pyyaml
+Pillow
+cellpose
+timm
+transformers
